@@ -21,6 +21,10 @@ li {
 .o{
    color: silver;
 }
+.div {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 #todo-input {
    width: 60%;
