@@ -9,7 +9,7 @@
    border: 0;
    border-radius: 5px;
 }
-
+h2 {text-align: center; margin-bottom: 10px;}
 ul {
    background-color:#1d1d1dfa;
    padding: 3px;
