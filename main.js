@@ -16,7 +16,7 @@ function sendForm(e) {
 
     const btnDel = document.createElement('button');
     btnDel.setAttribute('rol', 'button'),
-    btnDel.innerHTML = 'delete';
+    btnDel.innerHTML = 'удалить';
     btnDel.classList.add('btn-del');
 
     const span = document.createElement('span');
