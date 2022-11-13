@@ -1,0 +1,30 @@
+.cont {
+   margin: auto;
+}
+
+.btn-del {
+   margin: 15px;
+   background-color: brown;
+   color: beige;
+   border: 0;
+   border-radius: 5px;
+}
+
+ul {
+   background-color:#1d1d1dfa;
+   padding: 3px;
+   color: antiquewhite;
+}
+li {
+   margin-left: 20px;
+}
+.o{
+   color: silver;
+}
+
+#todo-input {
+   width: 60%;
+   height: 40px;
+   border: 0;
+   border-bottom: 2px solid rgb(0, 94, 255);
+}
