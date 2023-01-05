@@ -7,8 +7,10 @@ const info = document.querySelector('.info');
 
 
 btnAdd.addEventListener('click',addElem);
+
 let d = new Date();
 let date = d.toLocaleString();
+
 function addElem() {
     let inp = input.value;
     const div = document.createElement('div');
