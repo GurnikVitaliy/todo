@@ -1,50 +1,154 @@
-/* #main {
-    width: auto;
-    background-color: antiquewhite;
-    padding: 30px;
-    margin: 20px auto;
-} */
-
-#main {
-    width: auto;
-    background-color: rgb(44, 41, 39);
-    color: aliceblue;
-    padding: 30px;
-    margin: 20px auto;
-}
-
-#inp {
-    width: 62%;
-    height: 30px;
-}
-
-#btn {
-    width: 33px;
-    height: 33px;
-    border: 0;
-    background-color: aquamarine;
-}
-
-#reset {
-    height: 33px;
-    background-color: red;
-    color: white;
-    border: 0;
-}
-
-#clr{
-    border: 0;
-    background-color: rgb(233, 118, 12);
-    color: aliceblue;
-}
-
-.out{
+/* 1-block */
+#top {
+    /* width: 100%; */
     display: flex;
-    justify-content:space-between
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right top, #08084e, #051150, #041850, #071d50, #0d2350, #00284e, #002b4b, #002e47, #002e3d, #002d2f, #052a20, #152615);
 }
 
-/* button {
-    background-color: red;
-    color: white; 
+.top__left {
+    color: bisque;
+    /* width: 300px; */
+}
+
+#top__right-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+/* 2 - block */
+#title {
+    width: 100%;
+    background-color: #000;
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* 3 - block */
+#scary__movie {
+    background-color: #000;
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.scary__movie-left {
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#scary__movie-foto {
+    width: 300px;
+}
+.scary__movie-right {
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+/* 3 - block */
+#title__camedy {
+    width: 100%;
+    background-image: linear-gradient(to right top, #ca9435, #da7338, #e04d4d, #d7246b, #b9118f, #a03db4, #7459d2, #006fe6, #008fef, #00a2c8, #00ae87, #42b242);
+    color:#fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* 4 - block */
+#comedy {
+    background-image: linear-gradient(to right top, #ca9435, #da7338, #e04d4d, #d7246b, #b9118f, #a03db4, #7459d2, #006fe6, #008fef, #00a2c8, #00ae87, #42b242);
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.comedy__left-title {
+    width: 300px;
+    text-align: center;
+}
+.comedy__right {
+    width: 300px;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* 5 - block */
+
+#title__best {
+    background-image: linear-gradient(to right top, #202c27, #1e2d2a, #1c2e2e, #1b2f31, #1b3035, #182f33, #162d31, #132c2f, #112826, #12241d, #141f14, #161a0b);
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+/* 6 - block */
+#best__movie {
+    background-image: linear-gradient(to right top, #202c27, #1e2d2a, #1c2e2e, #1b2f31, #1b3035, #182f33, #162d31, #132c2f, #112826, #12241d, #141f14, #161a0b);
+    color:#fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.best__movie-left {
+    width: 300px;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px
+    
+}
+
+.best__movie-right {
+    width: 300px;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#b {
+    padding: 10px;
+    background-color: #291010;
+}
+.tab {
     border: 0;
-} */
+}
+.tab.active {
+    background-color: #457ba3;
+    color: #fff;
+}
+.conte {
+    display: none;
+}
+.conte.active {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* media */
+@media (max-width: 700px) {
+    .top__left {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 30px;
+    }
+    .tl {font-size: 18px;}
+ }
